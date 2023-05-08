@@ -1,3 +1,4 @@
 body {background-color:rgb(54, 204, 209);}
-body.f1 { background-image: url("bildes/daudzsuniilustracija.jpg");}
+body.f1 { background-image: url("bildes/daudzsuniilustracija.jpg") ; background-repeat: no-repeat; background-attachment: fixed; background-size: contain;}
 h1.a1 {color:rgb(61, 34, 214);text-shadow: 2px 2px 5px rgba(51, 19, 190, 0.842);}
+table, th, td { border:1px solid black; width:100%}
