@@ -1,17 +1,17 @@
 body {background-color:rgb(162, 201, 191);}
 
-h1.a1 {color:rgb(61, 34, 214);text-shadow: 2px 2px 5px rgba(51, 19, 190, 0.842);}
+h1.a1 {color:rgb(0, 0, 0);text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);}
 table, th, td { border:1px solid black; width:100%}
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #030303;
     float: left;
     width: 180px;
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid #0b0b0b;
   }
   
   div.gallery img {
@@ -23,3 +23,25 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
+
+button{
+  
+
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  height: 36px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #007c89;
+  transition: background-color 0.2s ease-in-out 10s, opacity 20s ease-in-out 0s;
+  padding: 0 18px;
+  :hover {
+      color: #ffffff;
+      background-color: #006570;
+  }
+}
