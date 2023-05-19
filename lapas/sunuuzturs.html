@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suņu barošana</title>
-    <link href="../liana.css" rel="stylesheet">  
+    <link href="../liana.css" rel="stylesheet"> 
+    <link href="../liana.js"> 
 </head>
 <!-- <style>
     table, th, td {
@@ -113,9 +114,31 @@
   </table>
 <br>
 <p><img src="../bildes/sunsarbaribu.jpg" alt="Suņi" style="float:right;width: 300px;;"></p>
-<h3>Vai vēlaties izveidot sava suņa barības plānu nedēļai? </h3>
+<h3>Vai vēlaties uzzināt sava suņa piemērotāko ēdiena dienas devu? </h3>
 
-te bus java sripti kur bus pajautati jauajumi par suni un tad izveidots plans barošanai
+<p>Jūsu suņa vārds: <input type="text" id="vards"></p>
+<p>Suņa svars(kg): <input type="text" id="svars"></p>
+<p>Suņa vecums(gadi): <input type="text" id="vecums"></p>
+<p>Cik aktīvs ir jūsu suns?</p>
+<label class="container">Ļoti aktīvs
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Vidēji aktīvs
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Nav aktīvs
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+
+
+<p><button id="poga" onclick="svars()">Izpildīt</button></p>
+
+
+<p id = "info">.</p>
 
 <div class="container">
   <a href="index.html">
