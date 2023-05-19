@@ -1,7 +1,14 @@
 body {background-color:rgb(162, 201, 191);}
 
-h1.a1 {color:rgb(0, 0, 0);text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);}
+h1.a1 {color:rgb(0, 0, 0);text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);text-align: center;}
+h1.a2 {color:rgb(35, 59, 51);text-align: center; }
+
+h2 {}
+
 table, th, td { border:1px solid black; width:100%}
+
+
+
 
 div.gallery {
     margin: 5px;
