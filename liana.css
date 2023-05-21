@@ -116,3 +116,6 @@ button{
 	background: white;
 }
 
+canvas {
+  border: 1px solid #000;
+}

@@ -8,6 +8,7 @@
     <title>Document</title>
     
 </head>
+<body>
 <h1 class="a2">Suņu apmācības.</h1> 
 <hr>
 <h3> Kāpēc apmācīt suni?</h3>
@@ -33,7 +34,48 @@
     </a>
 </div>
 
-<body>
-    
+<canvas id="myCanvas" width="680" height="550" style="border:2px solid"></canvas>
+<script>
+var canvas = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+
+//smiley
+context.fillStyle = 'Gold';
+context.strokeStyle = 'black';
+context.lineWidth = 5;
+context.beginPath();
+context.arc(320, 240, 200, 0, 2 * Math.PI);
+context.fill();
+context.stroke();
+context.closePath();
+
+//eyes
+context.fillStyle = 'black';
+context.beginPath();
+context.arc(270, 175, 30, 0, 2 * Math.PI);
+context.fill();
+context.stroke();
+context.closePath();
+
+context.beginPath();
+context.arc(370, 175, 30, 0, 2 * Math.PI);
+context.fill();
+context.stroke();
+context.closePath();
+
+//mouth
+context.strokeStyle = 'black';
+context.lineWidth = 5;
+context.beginPath();
+context.arc(320, 240, 150, 0, -1 * Math.PI);
+context.stroke();
+context.closePath();
+
+
+ context.font='30px Arial Black';
+ context.fillText("Ceru ka ši informācija noderēja.", 80,500);
+
+
+</script>
 </body>
 </html>

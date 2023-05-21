@@ -3,3 +3,6 @@ function svars(){
  	document.getElementById("info").innerHTML = x;
 }
 
+
+
+
