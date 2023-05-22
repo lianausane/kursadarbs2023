@@ -36,7 +36,31 @@
 <h5>  Kaklasiksna un pavada</h5>
 <p> Ja vien nedzīvo vietā, kur Tavs suns vienmēr var brīvi staigāt bez pavadas, tad pirmā lieta, kas ir jāiegādājas, ir kaklasiksna un pavada. Tiklīdz kucēns ir saņēmis visas nepieciešamās potes, vari doties ar suni pastaigās.</p>
 
-
+<script>
+    
+    var x, y, darbiba, r;
+    x = Number(prompt("Ievadiet pirmo skaitli"));
+    y = Number(prompt("Ievadiet otro skaitli"));
+    darbiba = prompt("Ievadiet darbību");
+    switch (darbiba) {
+        case "+":
+            r = x + y;
+            break;
+        case "-":
+            r = x - y;
+            break;
+         case "*":
+            r = x * y;
+            break;
+        case "/":
+            r = x / y;
+            break;
+        default:
+            r = "Kļūdaini norādīta darbība";
+    }
+    document.write(r);
+            </script>
+    
 
 <p>Piespiediet pogu lai dotos uz atbilstošo saiti.</p>
 
